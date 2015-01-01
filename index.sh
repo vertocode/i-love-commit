@@ -34,9 +34,9 @@ _() {
     done
   done
 
-#  git remote add origin "https://${ACCESS_TOKEN}@github.com/${USERNAME}/i-love-commit.git"
-#  git branch -M main
-#  git push -u origin main -f
+  git remote add origin "https://${ACCESS_TOKEN}@github.com/${USERNAME}/i-love-commit.git"
+  git branch -M main
+  git push -u origin main -f
   cd ..
   rm -rf "${YEAR}"
 
